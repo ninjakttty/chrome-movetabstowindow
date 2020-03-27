@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf ./dist && mkdirp ./dist",
+    "build": "npm run clean && bestzip ./dist/movetabstonewwindow.zip app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/ninjakttty/chrome-movetabstowindow/issues"
   },
-  "homepage": "https://github.com/ninjakttty/chrome-movetabstowindow#readme"
+  "homepage": "https://github.com/ninjakttty/chrome-movetabstowindow#readme",
+  "dependencies": {
+    "bestzip": "^2.1.5",
+    "mkdirp": "^1.0.3",
+    "rimraf": "^3.0.2"
+  }
 }

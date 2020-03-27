@@ -20,8 +20,8 @@
   "commands": {
     "move-tabs-to-new-window": {
       "suggested_key": {
-        "default": "Ctrl+Shift+P",
-        "mac": "Command+Shift+P"
+        "default": "Ctrl+Shift+M",
+        "mac": "MacCtrl+Shift+M"
       },
       "description": "Move selected tabs to new window"
     }
