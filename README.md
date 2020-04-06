@@ -3,8 +3,11 @@
 ## About
 
 Browser extension that moves current tab or all selected tabs to a new window.
+![move to new window demo](https://raw.githubusercontent.com/ninjakttty/chrome-movetabstowindow/master/demo.gif 'move to new window demo')
 
 ### Installing from store
+
+[Chrome Store](https://chrome.google.com/webstore/detail/acaefbebcgnpoanfjobbmbobjlapgbpi)
 
 ### Installing from repo
 
