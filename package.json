@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ninjakttty/chrome-movetabstowindow#readme",
   "dependencies": {
-    "bestzip": "^2.1.5",
+    "bestzip": "^2.1.7",
     "mkdirp": "^1.0.3",
     "rimraf": "^3.0.2"
   }
